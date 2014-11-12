@@ -83,7 +83,7 @@ TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
 # KERNEL_HAS_GETTIMEOFDAY_HELPER := true
 
 # We have the new GPS driver
-BOARD_HAVE_NEW_QC_GPS := true
+#BOARD_HAVE_NEW_QC_GPS := true
 
 # Use CAF media driver variant for 8960
 # TARGET_QCOM_MEDIA_VARIANT := caf
