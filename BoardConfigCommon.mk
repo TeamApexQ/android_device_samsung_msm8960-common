@@ -96,28 +96,23 @@ BOARD_SEPOLICY_DIRS += \
         device/samsung/msm8960-common/sepolicy
 
 BOARD_SEPOLICY_UNION += \
-	bluetooth_loader.te \
-	bridge.te \
-	camera.te \
-	conn_init.te \
-	device.te \
-	domain.te \
-	file.te \
-	file_contexts \
-	hostapd.te \
-	kickstart.te \
-	mediaserver.te \
-	mpdecision.te \
-	netmgrd.te \
-	property.te \
-	property_contexts \
-	qmux.te \
-	rild.te \
-	rmt.te \
-	sensors.te \
-	surfaceflinger.te \
-	system_server.te \
-	tee.te \
-	te_macros \
-	thermald.te \
-	ueventd.te
+    file_contexts \
+    app.te \
+    bluetooth.te \
+    device.te \
+    domain.te \
+    drmserver.te \
+    file.te \
+    hci_init.te \
+    healthd.te \
+    init.te \
+    init_shell.te \
+    keystore.te \
+    kickstart.te \
+    mediaserver.te \
+    nfc.te \
+    rild.te \
+    surfaceflinger.te \
+    system.te \
+    ueventd.te \
+    wpa.te
