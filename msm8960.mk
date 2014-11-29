@@ -103,5 +103,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.vc_call_vol_steps=7 \
     ro.ksm.default=1
 
+# Wifi
+PRODUCT_PACKAGES += \
+    dhcpcd.conf \
+    hostapd \
+    hostapd_default.conf \
+    libwpa_client \
+    macloader \
+    wpa_supplicant
+
 # common msm8960
 $(call inherit-product, device/samsung/qcom-common/qcom-common.mk)
